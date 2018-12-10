@@ -1,0 +1,494 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    width: 1180px;
+    height: 2390px;
+    background-color: #FFFFFF;
+    margin: auto;
+}
+
+.main-image{
+    width: 750px;
+    height: 500px;
+    position: absolute;
+    left: 450px;
+    max-width: 750px;
+}
+
+.gradient{
+    width: 1180px;
+    height: 500px;
+    position: absolute;
+    background: linear-gradient(107.74deg, rgba(9, 227, 206, 0.5) 17.35%, rgba(246, 0, 134, 0.5) 64.52%);
+    opacity: 0.75;
+}
+
+.header-container{
+    width: 1180px;
+    height: 500px;
+    position: absolute;
+}
+
+.social-media-container{
+    width: 640px;
+    height: 60px;
+    background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+#share{
+    position: absolute;
+    width: 84px;
+    height: 32px;
+    left: 82px;
+    top: 16px;
+
+    font-family: Open Sans;
+    font-size: 10px;
+    text-align: right;
+
+    color: rgba(9, 227, 206, 0.5);
+}
+
+#Facebook{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 169px;
+    top: 14px;
+    opacity: 0.25;
+}
+
+#Twitter{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 211px;
+    top: 14px;
+    opacity: 0.25;
+}
+
+#Pinterest{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 253px;
+    top: 14px;
+    opacity: 0.25;
+}
+
+.atomic-box{
+    position: absolute;
+    width: 177px;
+    height: 70px;
+    left: 108px;
+    top: 100px;
+    opacity: 0.75;
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+h4{
+    font-family: Exo;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+    opacity: 0.75;
+}
+
+#Atomic{
+    position: absolute;
+    left: 12px;
+    top: 2px;
+}
+
+#Blondie{
+    position: absolute;
+    right: 12px;
+    bottom: 2px;
+
+}
+
+h1{
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    font-size: 144px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+#Debbie{
+    position: absolute;
+    width: 542px;
+    height: 187px;
+    left: 106px;
+    top: 173px;
+}
+
+h2{
+    font-family: Exo;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    font-size: 96px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+#Harry{
+    position: absolute;
+    width: 488px;
+    height: 102px;
+    left: 108px;
+    top: 326px;
+}
+
+.timeline-container{
+    width: 1180px;
+    height: 1642px;
+    position: absolute;
+    top: 500px;
+    background-color: #FFFFFF;
+}
+
+.vl{
+    position: absolute;
+    top:0;
+    left: 200px;
+    width: 8px;
+    height: 1642px;
+    background: linear-gradient(180deg, #B5E3E7 0%, #E693C9 100%);
+}
+
+.bio{
+    position: absolute;
+    top: 30px;
+    left: 274px;
+    color: rgba(246, 0, 134, 0.75);
+}
+
+/* STYLE FOR TIMELINE YEARS */
+
+.years{
+    width: 78px;
+    position: absolute;
+    left: 105px;
+
+
+    font-family: Exo;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    font-size: 18px;
+    text-align: center;
+    color: rgba(246, 0, 134, 0.5);
+}
+
+#year1945{
+    top: 80px;
+    left: 110px;
+}
+
+#year1960{
+    top: 192px;
+}
+
+#year1970{
+    top: 440px;
+}
+
+#year1980{
+    top: 761px;
+}
+
+#year1990{
+    top: 1260px;
+}
+
+#year2000{
+    top: 1390px;
+}
+
+/* STYLE FOR EVENT HEADERS AND DESCRIPTIONS */
+
+.event-head{
+    position: absolute;
+    left: 310px;
+    top: 80px;
+
+    font-family: Exo;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px;
+    color: rgba(246, 0, 134, 0.5)
+}
+
+.event{
+    width: 368px;
+    position: absolute;
+    left: 310px;
+    top: 110px;
+
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 16px;
+
+    color: #6D6D6D;
+}
+
+#event-head2{
+     top: 192px;
+ }
+
+#event2{
+    top: 221px;
+}
+
+#event-head3{
+    top: 282px;
+}
+
+#event3{
+    top: 311px;
+}
+
+#event-head4{
+    top: 351px;
+}
+
+#event4{
+    top: 380px;
+}
+
+#event-head5{
+    top: 440px;
+}
+
+#event5{
+    top: 469px;
+}
+
+#event-head6{
+    top: 551px;
+}
+
+#event6{
+    top: 580px;
+    width: 380px;
+}
+
+#event-head7{
+    top: 641px;
+}
+
+#event7{
+    top: 670px;
+}
+
+#event-head8{
+    top: 751px;
+}
+
+#event8{
+    top: 780px;
+}
+
+#event-head9{
+    top: 861px;
+}
+
+#event9{
+    top: 890px;
+}
+
+#event-head10{
+    top: 970px;
+}
+
+#event10{
+    top: 999px;
+}
+
+#event-head11{
+    top: 1149px;
+}
+
+#event11 {
+    top: 1178px;
+}
+
+#event-head12{
+    top: 1260px;
+}
+
+#event12{
+    top: 1289px;
+}
+
+#event-head13{
+    top: 1390px;
+}
+
+#event13{
+    top: 1419px;
+}
+
+#event-head14{
+    top: 1520px;
+}
+
+#event14{
+    top: 1549px;
+}
+
+
+/* STYLE FOR PHOTOGRAPHS AND QUOTES ON TIMELINE */
+
+#photo1{
+    width: 274px;
+    height: 366px;
+    position: absolute;
+    top: 60px;
+    left: 797px;
+}
+
+h3{
+    position: absolute;
+    width: 266px;
+    left: 799px;
+
+    font-family: Exo;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 32px;
+    text-align: right;
+    color: rgba(246, 0, 134, 0.5);
+}
+
+#quote1{
+    top: 344px;
+}
+
+#photo2{
+    width: 274px;
+    height: 411px;
+    position: absolute;
+    top: 588px;
+    left: 796px;
+}
+
+#quote2{
+    top: 874px;
+    color: rgba(8, 194, 176, 0.85);
+}
+
+#photo3{
+    width: 274px;
+    height: 271px;
+    position: absolute;
+    left: 797px;
+    top: 1116px;
+}
+
+#quote3{
+    top: 1343px;
+}
+
+/* STYLING FOR FOOTER */
+
+.footer-container{
+    width: 1180px;
+    height: 250px;
+    position: absolute;
+    top: 2142px;
+
+    background: linear-gradient(90deg, rgba(246, 0, 134, 0.5) 0%, rgba(9, 227, 206, 0.5) 100%);
+}
+
+#more{
+    position: absolute;
+    left: 303px;
+    top: 60px;
+
+    font-family: Exo;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 28px;
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.spotify{
+    position: absolute;
+    width: 177px;
+    height: 70px;
+    left: 400px;
+    top: 120px;
+    opacity: 0.75;
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#listen{
+    position: absolute;
+    top: 2px;
+    left: 17px;
+}
+
+#spotify{
+    position: absolute;
+    bottom: 2px;
+    right: 17px;
+}
+
+.video{
+    position: absolute;
+    top: 120px;
+    left: 597px;
+    width: 275px;
+    height: 70px;
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#watch{
+    position: absolute;
+    top: 2px;
+    left: 12px;
+}
+
+#video{
+    position: absolute;
+    bottom: 2px;
+    right: 12px;
+}
+
+.spotify:hover, .video:hover{
+    border: 4px solid rgba(8, 194, 176, 0.85);
+}
+
+#photo4{
+    position: absolute;
+    width: 372px;
+    height: 248px;
+    left: 16px;
+    top: 2px;
+}
+
+
+
+
